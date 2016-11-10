@@ -7,7 +7,10 @@ The bot reads incoming Facebook Messenger messages, and responds by generating r
 
 Use of virtualenv is highly recommended, especially since the old version of `nltk` used requires an old version of `setuptools`.
 
-    $ pip install -r requirements.txt
+$ pip install setuptools==9.1
+# this will automatically uninstall newer/older setuptools versions first
+
+$ pip install -U nltk
 
 ## Setting up a Facebook app for Facebook messenger
 
